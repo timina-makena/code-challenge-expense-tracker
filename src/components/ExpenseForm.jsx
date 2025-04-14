@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function ExpenseForm({ addExpense }) {
-  // State to track what's typed in the form
+ 
   const [formData, setFormData] = useState({
     description: "",
     amount: "",
@@ -25,7 +25,6 @@ function ExpenseForm({ addExpense }) {
 
     addExpense(newExpense);
 
-    // Clear the form after adding
     setFormData({
       description: "",
       amount: "",
