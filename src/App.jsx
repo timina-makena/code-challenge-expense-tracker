@@ -10,7 +10,7 @@ function App() {
     {
       id: 1,
       description: "Groceries",
-      amount: 100,
+      amount: 150,
       category: "Food",
     },
     {
